@@ -21,6 +21,6 @@ namespace Abstract
             this.description = description;
         }
 
-        abstract public void GetInfo();
+        virtual public void GetInfo(){}
     }
 }
